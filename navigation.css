@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E0BBE4;
+    }
+
+    /* Här har jag min tjusiga border samt att texten är i mitten*/
+    li {
+        float: left;
+        text-align: center;
+        border: #957DAD solid;
+    }
+
+    li a {
+        display: inline;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }    
+
+    li a:hover
+    {
+        background-color: #f1b7c9;
+    }
+    ul {
+        position: fixed; top: 0; width: 100%;
+    }
+
+
+
+/* media queries för olika platformar */
+    @media screen and (max-width: 1020px) {
+        body {
+          background-color: blue;
+        }
+      }
+
+      @media screen and (max-width: 750px) {
+        body {
+          background-color: blue;
+        }
+      }
+
+      @media screen and (max-width: 420px) {
+        body {
+          background-color: blue;
+        }
+      }
